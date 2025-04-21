@@ -1,0 +1,77 @@
+/* Custom CSS for Movie Card layout
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  
+  .card-img {
+    border-radius: 8px;
+  }
+   */
+
+   .card {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  
+  .card-img {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .card-img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Add smooth animation on card appearance */
+  .animate__animated.animate__fadeInUp {
+    animation-duration: 1s !important;
+    animation-delay: 0.2s !important;
+  }
+  
+  @media (max-width: 768px) {
+    .card-img {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-img {
+      height: 150px;
+    }
+  }
