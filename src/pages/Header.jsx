@@ -3,7 +3,7 @@ import { Col, Container, Form, Nav, Navbar } from 'react-bootstrap';
 import { FaSearch } from 'react-icons/fa';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
-import logo from '../img/logo (2).png';
+import logo from '../img/logo.png';
 import './Header.css';
 
 function Header({ searchQuery, setSearchQuery }) {
