@@ -1,5 +1,12 @@
-<h2>Movie Review App</h2>
- <h6>Movie Review app usage of useState and useEffect (Api Calling) in React Js</h6>   
+# Movie Review App
+ <h6>Movie Review app usage of useState and useEffect (Api Calling) in React Js</h6> 
+<p>only two page home page and movie page and click image review page usage on Skeleton loader </p>
+
+## 🌐 Live Website
+
+Check out my website hosted on [Varcel](https://movie-review-app-inky.vercel.app/)
+
+
 
 # Getting Started with Create React App
 
