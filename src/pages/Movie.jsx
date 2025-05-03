@@ -93,7 +93,7 @@ function Movie({ searchQuery }) {
             ))
           )}
         </Row>
-        {/* <NavLink href="https://github.com/siddharth-tutorial/Material-ui">matrial-ui</NavLink> */}
+     
       </Container>
     </div>
   );

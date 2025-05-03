@@ -12,7 +12,7 @@ function Header({ searchQuery, setSearchQuery }) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1000); // Simulate loading time
+    }, 500); // Simulate loading time
     return () => clearTimeout(timer);
   }, []);
 
@@ -37,12 +37,12 @@ function Header({ searchQuery, setSearchQuery }) {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/">Tv Shows</Nav.Link>
                 <Nav.Link href="/movie">Movies</Nav.Link>
+                <Nav.Link href="/">Tv Shows</Nav.Link>
                 <Nav.Link href="/">New & Popular</Nav.Link>
                 <Nav.Link href="/">My List</Nav.Link>
                 <Nav.Link href="/">Browse by Languages</Nav.Link>
-                <Nav.Link href="/rough">Rough page</Nav.Link>
+        
               </Nav>
               <Col md={4}>
                 <div className="position-relative mb-3">
